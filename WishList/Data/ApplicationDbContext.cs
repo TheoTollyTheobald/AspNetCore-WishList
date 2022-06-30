@@ -10,10 +10,10 @@ namespace WishList.Data
         {
 
         }
-        public DbSet<Item> Items()
-        {
-            Item item = new Item();
-            return item;
-        }
+        //public DbSet<Item> Items()
+        //{
+            //Item item = new Item();
+            //return item;
+        //}
     }
 }
