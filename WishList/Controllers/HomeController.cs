@@ -4,14 +4,14 @@ namespace WishList.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index(IActionResult index)
+        public IActionResult Index()
         {
-            return View(index);
+            return View("Index");
         }
 
-        public IActionResult Error(IActionResult error)
+        public IActionResult Error()
         {
-            return View(error);
+            return View("Error");
         }
     }
 }
