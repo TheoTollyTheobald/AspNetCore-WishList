@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="Views\Home\htmlpage.cshtml" />
+    <Content Remove="Views\Home\Error.cshtml" />
     <Content Remove="Views\Home\Index.cshtml" />
   </ItemGroup>
 
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Home\htmlpage.cshtml" />
+    <None Include="Views\Home\Error.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
   </ItemGroup>
 
