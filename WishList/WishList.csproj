@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Home\Error.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
     <None Include="Views\Home\Index.cshtml" />
   </ItemGroup>
 
