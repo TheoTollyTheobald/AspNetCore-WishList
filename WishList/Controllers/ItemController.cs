@@ -17,9 +17,8 @@ namespace WishList.Controllers
 
         public IActionResult Index()
         {
-            //DbSet<Item> Items = _context.Items;
-            List<Item> Items = _context.Items.ToListAsync();
-            return View("Index", Items);
+             //DbSet<Item> Items = _context.Items;
+             return View("Index", new List<Item>());
         }
 
         [HttpGet]public IActionResult Create()
@@ -27,9 +26,9 @@ namespace WishList.Controllers
             return View("Create");
         }
 
-        [HttpPost]public IActionResult Create()
-        {
+        //[HttpPost]public IActionResult Create()
+        //{
 
-        }
+        //}
     }
 }
